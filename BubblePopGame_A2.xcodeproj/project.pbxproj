@@ -11,6 +11,10 @@
 		3A7ABE582BC37FF600804DEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABE572BC37FF600804DEE /* ContentView.swift */; };
 		3A7ABE5A2BC37FF900804DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ABE592BC37FF900804DEE /* Assets.xcassets */; };
 		3A7ABE5D2BC37FF900804DEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ABE5C2BC37FF900804DEE /* Preview Assets.xcassets */; };
+		3A7ABE642BC3800B00804DEE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABE632BC3800B00804DEE /* HomeView.swift */; };
+		3A7ABE662BC3801200804DEE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABE652BC3801200804DEE /* SettingView.swift */; };
+		3A7ABE682BC3802200804DEE /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABE672BC3802200804DEE /* PlayView.swift */; };
+		3A7ABE6A2BC3807200804DEE /* ScoreBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABE692BC3807200804DEE /* ScoreBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3A7ABE572BC37FF600804DEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A7ABE592BC37FF900804DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7ABE5C2BC37FF900804DEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A7ABE632BC3800B00804DEE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3A7ABE652BC3801200804DEE /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		3A7ABE672BC3802200804DEE /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		3A7ABE692BC3807200804DEE /* ScoreBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,11 @@
 		3A7ABE542BC37FF600804DEE /* BubblePopGame_A2 */ = {
 			isa = PBXGroup;
 			children = (
-				3A7ABE552BC37FF600804DEE /* BubblePopGame_A2App.swift */,
-				3A7ABE572BC37FF600804DEE /* ContentView.swift */,
+				3A7ABE6B2BC3812D00804DEE /* App */,
+				3A7ABE6D2BC3813B00804DEE /* Component */,
+				3A7ABE6C2BC3813700804DEE /* Core */,
+				3A7ABE6E2BC3814700804DEE /* Feature */,
+				3A7ABE6F2BC3814C00804DEE /* Model */,
 				3A7ABE592BC37FF900804DEE /* Assets.xcassets */,
 				3A7ABE5B2BC37FF900804DEE /* Preview Content */,
 			);
@@ -65,6 +76,79 @@
 				3A7ABE5C2BC37FF900804DEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A7ABE6B2BC3812D00804DEE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABE552BC37FF600804DEE /* BubblePopGame_A2App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3A7ABE6C2BC3813700804DEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3A7ABE6D2BC3813B00804DEE /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3A7ABE6E2BC3814700804DEE /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABE572BC37FF600804DEE /* ContentView.swift */,
+				3A7ABE702BC3816B00804DEE /* Home */,
+				3A7ABE712BC3817800804DEE /* Play */,
+				3A7ABE732BC3818500804DEE /* ScoreBoard */,
+				3A7ABE722BC3818000804DEE /* Setting */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		3A7ABE6F2BC3814C00804DEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A7ABE702BC3816B00804DEE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABE632BC3800B00804DEE /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3A7ABE712BC3817800804DEE /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABE672BC3802200804DEE /* PlayView.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		3A7ABE722BC3818000804DEE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABE652BC3801200804DEE /* SettingView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		3A7ABE732BC3818500804DEE /* ScoreBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABE692BC3807200804DEE /* ScoreBoardView.swift */,
+			);
+			path = ScoreBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7ABE642BC3800B00804DEE /* HomeView.swift in Sources */,
+				3A7ABE662BC3801200804DEE /* SettingView.swift in Sources */,
+				3A7ABE6A2BC3807200804DEE /* ScoreBoardView.swift in Sources */,
 				3A7ABE582BC37FF600804DEE /* ContentView.swift in Sources */,
+				3A7ABE682BC3802200804DEE /* PlayView.swift in Sources */,
 				3A7ABE562BC37FF600804DEE /* BubblePopGame_A2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
